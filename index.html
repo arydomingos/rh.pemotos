@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resultados do RH — 2º Trimestre 2026 | Pernambuco Motos</title>
+<meta name="description" content="Dashboard executivo de Resultados de RH — 2º Trimestre 2026">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Loading screen -->
+<div id="loading-screen">
+  <div class="loader-ring"></div>
+  <div class="loader-text">Carregando dashboard executivo de RH…</div>
+</div>
+
+<div id="app-shell">
+
+  <!-- Sidebar overlay (mobile) -->
+  <div id="sidebar-overlay"></div>
+  <button id="sidebar-toggle" aria-label="Abrir menu"><i class="fa-solid fa-bars"></i></button>
+
+  <!-- SIDEBAR -->
+  <aside id="sidebar">
+    <div class="sidebar-brand">
+      <img class="logo-mark" src="assets/logo_p.png" alt="Logo">
+      <div class="brand-text">
+        <strong>Pernambuco Motos</strong>
+        <span>People Analytics · 2T26</span>
+      </div>
+    </div>
+    <nav class="sidebar-nav" id="sidebar-nav">
+      <div class="nav-section-label">Navegação</div>
+      <a class="nav-item" data-nav href="#visao-geral"><i class="fa-solid fa-house"></i>Visão Geral</a>
+      <a class="nav-item" data-nav href="#pessoas"><i class="fa-solid fa-users"></i>Composição RH</a>
+      <a class="nav-item" data-nav href="#indicadores"><i class="fa-solid fa-gauge-high"></i>Indicadores</a>
+      <a class="nav-item" data-nav href="#recrutamento"><i class="fa-solid fa-user-plus"></i>Recrutamento</a>
+      <a class="nav-item" data-nav href="#turnover"><i class="fa-solid fa-arrows-rotate"></i>Turnover</a>
+      <a class="nav-item" data-nav href="#custos"><i class="fa-solid fa-sack-dollar"></i>Custos</a>
+      <a class="nav-item" data-nav href="#desenvolvimento"><i class="fa-solid fa-graduation-cap"></i>Desenvolvimento</a>
+      <a class="nav-item" data-nav href="#insights"><i class="fa-solid fa-lightbulb"></i>Insights</a>
+      <a class="nav-item" data-nav href="#recomendacoes"><i class="fa-solid fa-list-check"></i>Recomendações</a>
+      <a class="nav-item" data-nav href="#comparativo-25-26"><i class="fa-solid fa-scale-balanced"></i>Comparativo 2025/2026</a>
+      <a class="nav-item" data-nav href="#anexos"><i class="fa-solid fa-paperclip"></i>Anexos</a>
+    </nav>
+    <div class="sidebar-foot">
+      Fonte: RH - RESULTADOS DE RH 2º TRIMESTRE 26.pdf<br>
+      20 páginas · dados 100% preservados
+    </div>
+  </aside>
+
+  <div id="main-col">
+    <!-- TOPBAR / CABEÇALHO -->
+    <header id="topbar">
+      <div class="topbar-left">
+        <div class="topbar-title">Resultados do RH — 2º Trimestre de 2026</div>
+        <div class="topbar-meta">
+          <span class="badge-chip"><i class="fa-regular fa-calendar"></i>Competência: Abril – Junho / 2026</span>
+          <span class="dot"></span>
+          <span><i class="fa-regular fa-building"></i> Pernambuco Motos</span>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <button class="btn btn-icon" id="btn-print" data-tooltip="Imprimir"><i class="fa-solid fa-print"></i></button>
+        <button class="btn btn-icon" id="btn-export" data-tooltip="Exportar PDF"><i class="fa-solid fa-file-arrow-down"></i></button>
+        <button class="btn btn-icon" id="btn-fullscreen" data-tooltip="Tela cheia"><i class="fa-solid fa-expand"></i></button>
+      </div>
+    </header>
+
+    <main id="content">
+
+      <!-- ===================== VISÃO GERAL ===================== -->
+      <section class="section" id="visao-geral">
+        <div class="section-head fade-up">
+          <div>
+            <span class="section-eyebrow"><i class="fa-solid fa-house"></i> Visão Geral</span>
+            <h1 class="section-title">Resumo Executivo</h1>
+            <p class="section-sub">Apresentação dos principais indicadores, performance organizacional e estratégias da gestão de pessoas. <span class="page-ref" data-tooltip="Fonte: página 1 do PDF">pág. 1</span></p>
+          </div>
+        </div>
+
+        <div class="card fade-up" style="margin-bottom:22px;">
+          <p style="font-size:14.5px;color:var(--text);line-height:1.7;">O 2º trimestre apresentou um <strong>cenário de alerta operacional crítico</strong>, com vitórias isoladas na atração de talentos. A incapacidade de manter a força de trabalho ativa e produtiva se refletiu em indicadores preocupantes, especialmente no absenteísmo, que atingiu níveis insustentáveis em maio. <span class="page-ref" data-tooltip="Fonte: página 3 do PDF">pág. 3</span></p>
+        </div>
+
+        <div class="grid grid-2 fade-up" style="margin-bottom:22px;">
+          <div class="alert-card critico">
+            <h4><i class="fa-solid fa-triangle-exclamation"></i> Alerta</h4>
+            <p>Absenteísmo chegou a <strong>12,38%</strong> em maio, indicando um ponto de atenção que segue sob controle.</p>
+          </div>
+          <div class="alert-card positivo">
+            <h4><i class="fa-solid fa-circle-check"></i> Vitória em R&amp;S</h4>
+            <p>Maturidade na eficiência do Recrutamento &amp; Seleção, com contratações rápidas e de alta qualidade técnica e cultural.</p>
+          </div>
+        </div>
+
+        <div class="grid grid-2 fade-up">
+          <div class="card">
+            <h3 style="font-size:14px;margin-bottom:14px;">Principais Conquistas do Trimestre</h3>
+            <ul class="bullet-list" id="conquistas-list"></ul>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:16px;">
+            <div class="card">
+              <h3 style="font-size:14px;margin-bottom:14px;">Riscos &amp; Oportunidades</h3>
+              <ul class="bullet-list" id="riscos-list"></ul>
+            </div>
+            <div class="card-flat">
+              <h4 style="font-size:13.5px;margin-bottom:6px;">Headcount Estável</h4>
+              <p style="font-size:13px;color:var(--text-muted);">Crescimento leve de <strong style="color:var(--dark)">1.354</strong> para <strong style="color:var(--dark)">1.374</strong> colaboradores no período, com distribuição equilibrada entre as três unidades.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== PESSOAS ===================== -->
+      <section class="section" id="pessoas">
+        <div class="section-head fade-up">
+          <div>
+            <span class="section-eyebrow"><i class="fa-solid fa-users"></i> Pessoas</span>
+            <h1 class="section-title">Composição do RH</h1>
+            <p class="section-sub">RH estratégico e subdividido, e visão consolidada do quadro de colaboradores. <span class="page-ref" data-tooltip="Fonte: páginas 2 e 4 do PDF">pág. 2, 4</span></p>
+          </div>
+        </div>
+
+        <h2 class="subsection-title"><span class="num-pill">1</span> RH Estratégico e Subdividido</h2>
+        <div class="grid grid-2 fade-up">
+          <div class="card profile-card hoverable" data-panel="mirella">
+            <div class="profile-head">
+              <div class="avatar">M</div>
+              <div><strong>Mirella</strong><br><span>Recrutamento, Seleção &amp; Clima Organizacional</span></div>
+            </div>
+            <ul class="bullet-list">
+              <li><i class="fa-solid fa-circle"></i>Responsável pelo Recrutamento e Seleção, conduzindo todo o processo de ponta a ponta, desde o alinhamento da vaga com o gestor até a contratação de profissionais alinhados à cultura e às necessidades da empresa.</li>
+              <li><i class="fa-solid fa-circle"></i>Atuará também em Clima Organizacional e Engajamento, implementando planos de ação para fortalecer o ambiente de trabalho e a experiência dos colaboradores.</li>
+            </ul>
+          </div>
+          <div class="card profile-card hoverable" data-panel="ikaro">
+            <div class="profile-head">
+              <div class="avatar">IA</div>
+              <div><strong>Ikaro e Arianny</strong><br><span>Subsistemas estratégicos de RH</span></div>
+            </div>
+            <ul class="bullet-list">
+              <li><i class="fa-solid fa-circle"></i>Treinamento e Desenvolvimento (T&amp;D) e Desenvolvimento Organizacional (DO);</li>
+              <li><i class="fa-solid fa-circle"></i>Endomarketing e Comunicação Interna;</li>
+              <li><i class="fa-solid fa-circle"></i>People Analytics, com acompanhamento de indicadores, dashboards e apoio à tomada de decisão;</li>
+              <li><i class="fa-solid fa-circle"></i>Employer Branding, Onboarding e gestão da experiência do colaborador desde sua integração;</li>
+              <li><i class="fa-solid fa-circle"></i>Remuneração e Benefícios, apoiando a gestão de políticas de valorização e retenção de talentos.</li>
+              <li><i class="fa-solid fa-circle"></i>Política de Cargos e Salários e Fluxos de Desligamentos.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== INDICADORES ===================== -->
+      <section class="section" id="indicadores">
+        <div class="section-head fade-up">
+          <div>
+            <span class="section-eyebrow"><i class="fa-solid fa-gauge-high"></i> Indicadores</span>
+            <h1 class="section-title">Indicadores Gerais &amp; Estratégicos</h1>
+            <p class="section-sub">Painel consolidado para leitura em menos de 3 minutos — clique em qualquer indicador para aprofundar.</p>
+          </div>
+        </div>
+
+        <h2 class="subsection-title"><span class="num-pill">1</span> Indicadores Gerais</h2>
+        <div class="grid grid-3" id="kpi-cards"></div>
+
+        <h2 class="subsection-title" style="margin-top:44px;"><span class="num-pill">2</span> Indicadores Estratégicos — Visão Geral do Turnover <span class="page-ref" data-tooltip="Fonte: página 13 do PDF">pág. 13</span></h2>
+        <div class="grid grid-2" style="margin-bottom:20px;">
+          <div class="card">
+            <h4 style="font-size:13.5px;margin-bottom:10px;">Diagnóstico Macro</h4>
+            <p style="font-size:13px;color:var(--text-muted);margin-bottom:10px;">O trimestre encerra com <strong style="color:var(--dark)">225 desligamentos</strong> globais frente a um Headcount de <strong style="color:var(--dark)">1.374</strong> colaboradores, gerando um turnover trimestral aproximado de <strong style="color:var(--dark)">16,3% a 17,5%</strong> (considerando a média das entradas).</p>
+            <p style="font-size:13px;color:var(--text-muted);">A rotatividade não é homogênea. Metade dos desligamentos da empresa advém de um único departamento (Consórcio: 112 saídas), indicando que o problema é pontual de modelo de negócio/operação, e não estrutural de cultura ou RH.</p>
+          </div>
+          <div class="card">
+            <h4 style="font-size:13.5px;margin-bottom:10px;">Conclusões Estratégicas</h4>
+            <ul class="bullet-list">
+              <li><i class="fa-solid fa-circle"></i><strong>O "Fator Consórcio":</strong> Excluindo as operações de consórcio, o turnover da companhia cairia pela metade (apenas 113 saídas no 2T26.</li>
+              <li><i class="fa-solid fa-circle"></i><strong>Estabilidade do Backoffice:</strong> Áreas Administrativas, Web e Pós-Vendas seguram o headcount, com times maduros e baixa evasão.</li>
+              <li><i class="fa-solid fa-circle"></i><strong>Alerta Regional RJ:</strong> Fora do consórcio, o RJ é a praça com maior giro proporcional em Vendas (Veículos Novos) e Administrativo.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="grid grid-2">
+          <div class="card">
+            <div class="table-toolbar">
+              <h4 style="font-size:13.5px;">Admissões x Demissões por Departamento</h4>
+              <div class="search-box"><i class="fa-solid fa-magnifying-glass"></i><input type="text" placeholder="Buscar departamento…" data-table-search="tbl-departamento"></div>
+            </div>
+            <div class="data-table-wrap"><table class="data-table" id="tbl-departamento"></table></div>
+            <p class="section-sub" style="margin-top:12px;">Análise: Consórcio e Veículos Novos representam uma "porta giratória", consumindo 67% de todo o esforço de Recrutamento apenas para repor as vagas abertas por demissões.</p>
+          </div>
+          <div class="card">
+            <div class="table-toolbar">
+              <h4 style="font-size:13.5px;">Admissões x Demissões por Estado / Regional</h4>
+              <div class="search-box"><i class="fa-solid fa-magnifying-glass"></i><input type="text" placeholder="Buscar estado…" data-table-search="tbl-estado-adm"></div>
+            </div>
+            <div class="data-table-wrap"><table class="data-table" id="tbl-estado-adm"></table></div>
+            <p class="section-sub" style="margin-top:12px;">Análise: A operação como um todo cresceu (saldo positivo de +30 vagas). No entanto, o RJ reduziu seu quadro (perdeu mais pessoas do que contratou no período).</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== RECRUTAMENTO ===================== -->
+      <section class="section" id="recrutamento">
+        <div class="section-head fade-up">
+          <div>
+            <span class="section-eyebrow"><i class="fa-solid fa-user-plus"></i> Aquisição de Talentos</span>
+            <h1 class="section-title">Recrutamento &amp; Seleção — O Destaque do Trimestre</h1>
+            <p class="section-sub">Enquanto os indicadores de retenção preocupam, o R&amp;S entregou resultados excepcionais. O amadurecimento do processo seletivo com o ATS Pandapé (iniciado no 1T26) provou sua eficácia com números históricos. <span class="page-ref" data-tooltip="Fonte: páginas 5 e 6 do PDF">pág. 5-6</span></p>
+          </div>
+        </div>
+
+        <div class="grid grid-2">
+          <div class="card chart-card hoverable" data-panel="tempo-preenchimento">
+            <div class="chart-card-head">
+              <h4>Tempo Médio de Preenchimento (dias) <span class="pill neutro">Meta ≤ 30 dias</span></h4>
+              <button class="expand-btn" data-expand-chart="chart-tempo-preenchimento"><i class="fa-solid fa-expand"></i></button>
+            </div>
+            <div class="chart-wrap" style="height:260px;"><canvas id="chart-tempo-preenchimento"></canvas></div>
+          </div>
+          <div class="card chart-card hoverable" data-panel="taxa-aprovacao">
+            <div class="chart-card-head">
+              <h4>Taxa de Aprovação na Experiência (%) <span class="pill neutro">Meta ≥ 80%</span></h4>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:10px;justify-content:center;height:260px;">
+              <p class="section-sub">O PDF de origem apresenta este indicador apenas em formato gráfico (barras), sem rótulo numérico impresso sobre cada mês.</p>
+              <div style="display:flex;gap:10px;flex-wrap:wrap;">
+                <span class="illegible-chip"><i class="fa-solid fa-circle-info"></i> Abril: Informação não legível no PDF.</span>
+                <span class="illegible-chip"><i class="fa-solid fa-circle-info"></i> Maio: Informação não legível no PDF.</span>
+                <span class="illegible-chip"><i class="fa-solid fa-circle-info"></i> Junho: Informação não legível no PDF.</span>
+              </div>
+              <div class="callout"><strong>Meta anotada no PDF</strong> Meta (≥ 80%): 80</div>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="subsection-title"><span class="num-pill">2</span> Funil de Candidatos (Mês Atual) <span class="page-ref" data-tooltip="Fonte: página 6 do PDF">pág. 6</span></h2>
+        <div class="grid" style="grid-template-columns:1fr 1.4fr;gap:16px;">
+          <div class="grid" style="grid-template-columns:1fr 1fr;gap:16px;align-content:start;">
+            <div class="card kpi-card">
+              <div class="kpi-top"><div class="kpi-icon neutro"><i class="fa-solid fa-briefcase"></i></div></div>
+              <div class="kpi-value">28</div>
+              <div class="kpi-label">Vagas Abertas / PE</div>
+            </div>
+            <div class="card kpi-card">
+              <div class="kpi-top"><div class="kpi-icon positivo"><i class="fa-solid fa-stopwatch"></i></div></div>
+              <div class="kpi-value">17 dias</div>
+              <div class="kpi-label">Time-to-Hire / PE</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="funnel" id="funnel-container"></div>
+            <p class="section-sub" style="margin-top:14px;"><strong style="color:var(--dark)">57%</strong> das vagas concluídas no mês atual.</p>
+          </div>
+        </div>
+
+        <div class="grid grid-2" style="margin-top:20px;">
+          <div class="callout attention"><strong>Atenção ao fluxo de Consórcio:</strong> A etapa de entrevista para as vagas deste departamento não é realizada pelo RH. A atuação da equipe restringe-se exclusivamente à triagem e ao envio de candidatos qualificados para os gestores.</div>
+          <div class="callout"><strong>Autonomia Regional:</strong> O processo de recrutamento é descentralizado. As rotinas seletivas são conduzidas individualmente pelas equipes locais de cada estado (AL, PE, RJ).</div>
+        </div>
+
+        <h2 class="subsection-title"><span class="num-pill">3</span> Análise das Contratações</h2>
+        <div class="grid grid-2">
+          <div class="card chart-card hoverable">
+            <div class="chart-card-head">
+              <h4>Departamentos<span class="pill neutro">Histórico Acumulado: 255</span></h4>
+              <button class="expand-btn" data-expand-chart="chart-vagas-fechadas-depto"><i class="fa-solid fa-expand"></i></button>
+            </div>
+            <div class="chart-wrap" style="height:300px;"><canvas id="chart-vagas-fechadas-depto"></canvas></div>
+            <p class="section-sub" style="margin-top:12px;">Consórcio concentra <strong style="color:var(--dark)">51%</strong> de todas as vagas fechadas no histórico acumulado (130 de 255), seguido por Veículos Novos (16%) e Administrativo (16%).</p>
+          </div>
+          <div class="card chart-card hoverable">
+            <div class="chart-card-head">
+              <h4>Estados<span class="pill neutro">Total: 255</span></h4>
+              <button class="expand-btn" data-expand-chart="chart-contratacoes-estado"><i class="fa-solid fa-expand"></i></button>
+            </div>
+            <div class="chart-wrap" style="height:300px;"><canvas id="chart-contratacoes-estado"></canvas></div>
+            <p class="section-sub" style="margin-top:12px;">Alagoas lidera as contratações com <strong style="color:var(--dark)">116 (45%)</strong>, seguida por Pernambuco com 88 (35%) e Rio de Janeiro com 51 (20%).</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== TURNOVER ===================== -->
+      <section class="section" id="turnover">
+        <div class="section-head fade-up">
+          <div>
+            <span class="section-eyebrow"><i class="fa-solid fa-arrows-rotate"></i> Análise de Retenção</span>
+            <h1 class="section-title">Turnover Geral — Rotatividade Total</h1>
+            <p class="section-sub">Desligamentos no trimestre, evolução mensal e leitura de indicadores. <span class="page-ref" data-tooltip="Fonte: páginas 7, 8, 9 e 12 do PDF">pág. 7-9, 12</span></p>
+          </div>
+        </div>
+
+        <div class="grid grid-3">
+          <div class="card kpi-card hoverable" data-panel="turnover-total">
+            <div class="kpi-top"><div class="kpi-icon critico"><i class="fa-solid fa-user-slash"></i></div><span class="status-dot critico"></span></div>
+            <div class="kpi-value">226</div>
+            <div class="kpi-label">Desligamentos no Trimestre</div>
+            <div class="kpi-foot">Abril: 89 · Maio: 59 · Junho: 78</div>
+          </div>
+          <div class="card kpi-card">
+            <div class="kpi-top"><div class="kpi-icon critico"><i class="fa-solid fa-gauge"></i></div></div>
+            <div class="kpi-value">~5,4%</div>
+            <div class="kpi-label">Média Trimestral de Turnover</div>
+            <div class="kpi-foot">1T26: ~5,9% · Teto aceitável: 3,5%</div>
+          </div>
+          <div class="card kpi-card">
+            <div class="kpi-top"><div class="kpi-icon positivo"><i class="fa-solid fa-arrow-trend-down"></i></div></div>
+            <div class="kpi-value">0,28%</div>
+            <div class="kpi-label">Turnover Voluntário</div>
+            <div class="kpi-foot">Queda de 2,93% → 0,28% (teto 2,0%)</div>
+          </div>
+        </div>
+
+        <div class="grid grid-2" style="margin-top:16px;">
+          <div class="callout">
+            <strong>Leitura do Indicador</strong>
+            A média trimestral ficou em ~5,4%, levemente abaixo dos ~5,9% do 1T26, mas ainda muito acima do teto aceitável (3,5%). A queda em maio foi pontual — junho reascendeu o alerta.
+          </div>
+          <div class="card">
+            <h4 style="font-size:13px;margin-bottom:10px;">Impacto no Negócio</h4>
+            <ul class="bullet-list" id="impacto-negocio-list"></ul>
+          </div>
+        </div>
+
+        <h2 class="subsection-title"><span class="num-pill">2</span> Evolução Mensal por Estado <span class="page-ref" data-tooltip="Fonte: página 8 do PDF">pág. 8</span></h2>
+        <div class="card chart-card hoverable">
+          <div class="chart-card-head">
+            <h4>Desligamentos por Mês e Estado</h4>
+            <button class="expand-btn" data-expand-chart="chart-turnover-mes"><i class="fa-solid fa-expand"></i></button>
+          </div>
+          <div class="chart-wrap" style="height:320px;"><canvas id="chart-turnover-mes"></canvas></div>
+        </div>
+
+        <div class="grid grid-3" style="margin-top:16px;">
+          <div class="card-flat"><strong style="color:var(--attention);font-size:12px;">ALERTA PE (ABRIL)</strong><p style="font-size:12.8px;margin-top:6px;color:var(--text-muted);">Maior volume do mês, tracionado por Consórcio e Veículos Novos (22 saídas conjuntas).</p></div>
+          <div class="card-flat"><strong style="color:var(--positive);font-size:12px;">MELHORIA EM PE (MAIO)</strong><p style="font-size:12.8px;margin-top:6px;color:var(--text-muted);">Queda drástica nas saídas (-73% vs Abr). AL assume a liderança de saídas devido ao Consórcio.</p></div>
+          <div class="card-flat"><strong style="color:var(--critical);font-size:12px;">PICO CRÍTICO AL (JUNHO)</strong><p style="font-size:12.8px;margin-top:6px;color:var(--text-muted);">Disparo nas demissões, sendo 39 exclusivas do Consórcio. RJ e PE mantêm volumes controlados.</p></div>
+        </div>
+
+        <h2 class="subsection-title"><span class="num-pill">3</span> Total Acumulado por Estado <span class="page-ref" data-tooltip="Fonte: página 8 do PDF">pág. 8</span></h2>
+        <div class="grid" style="grid-template-columns:1fr 1.3fr;">
+          <div class="card chart-card">
+            <div class="chart-wrap" style="height:300px;"><canvas id="chart-total-estado"></canvas></div>
+          </div>
+          <div class="card">
+            <div style="display:flex;flex-direction:column;gap:14px;justify-content:center;height:100%;">
+              <div class="side-stat"><span>Alagoas (AL)</span><b>100 <span class="pill critico">44%</span></b></div>
+              <div class="side-stat"><span>Pernambuco (PE)</span><b>64 <span class="pill atencao">29%</span></b></div>
+              <div class="side-stat"><span>Rio de Janeiro (RJ)</span><b>61 <span class="pill neutro">27%</span></b></div>
+              <div class="side-stat" style="background:var(--dark);color:#fff;"><span>Total Acumulado (Abr–Jun)</span><b style="color:#fff;">225</b></div>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="subsection-title"><span class="num-pill">4</span> Desligamentos por Departamento <span class="page-ref" data-tooltip="Fonte: página 9 do PDF">pág. 9</span></h2>
+        <p class="section-sub" style="margin-bottom:16px;">Identificação de áreas críticas e zonas de retenção (Acumulado Abr–Jun).</p>
+        <div class="grid grid-2">
+          <div class="card">
+            <h4 style="font-size:13px;color:var(--critical);margin-bottom:12px;"><i class="fa-solid fa-fire"></i> Áreas Críticas (Alto Turnover)</h4>
+            <ul class="bullet-list">
+              <li><i class="fa-solid fa-circle"></i><strong>1. Consórcio (AL):</strong> Representa sozinho 36% de todos os desligamentos da empresa no trimestre (82 de 225). O giro neste estado é extremamente agressivo.</li>
+              <li><i class="fa-solid fa-circle"></i><strong>2. Veículos Novos (RJ):</strong> Com 23 saídas (metade das baixas do departamento), a regional carioca apresenta dificuldade de retenção na força de vendas.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h4 style="font-size:13px;color:var(--positive);margin-bottom:12px;"><i class="fa-solid fa-shield-heart"></i> Melhor Retenção (Estabilidade)</h4>
+            <ul class="bullet-list">
+              <li><i class="fa-solid fa-circle"></i><strong>1. Pós-Vendas (Oficina/Peças):</strong> Somados, representam apenas 6% dos desligamentos globais, demonstrando forte retenção nos 3 estados.</li>
+              <li><i class="fa-solid fa-circle"></i><strong>2. Administrativo (AL e PE):</strong> Quase não registraram saídas no trimestre (2 em AL, 6 em PE), mostrando grande estabilidade no backoffice nordestino.</li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 class="subsection-title"><span class="num-pill">5</span> Volume de Deligamentos</h2>
+        <div class="grid grid-2">
+          <div class="card chart-card hoverable">
+            <div class="chart-card-head">
+              <h4>Motivos</h4>
+              <button class="expand-btn" data-expand-chart="chart-motivos-desligamento"><i class="fa-solid fa-expand"></i></button>
+            </div>
+            <div class="chart-wrap" style="height:300px;"><canvas id="chart-motivos-desligamento"></canvas></div>
+            <p class="section-sub" style="margin-top:12px;">Desligamentos em período de experiência (empresa) lideram com <strong style="color:var(--dark)">69</strong> casos, seguidos por demissão sem justa causa (58) e demissionários (50).</p>
+          </div>
+          <div class="card chart-card hoverable">
+            <div class="chart-card-head">
+              <h4>Departamentos</h4>
+              <button class="expand-btn" data-expand-chart="chart-volume-desligamentos-depto"><i class="fa-solid fa-expand"></i></button>
+            </div>
+            <div class="chart-wrap" style="height:300px;"><canvas id="chart-volume-desligamentos-depto"></canvas></div>
+            <p class="section-sub" style="margin-top:12px;"><strong style="color:var(--dark)">Composição do Consórcio (112):</strong> Alagoas (82), Pernambuco (27), Rio de Janeiro (3).</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== DESENVOLVIMENTO ===================== -->
+      <section class="section" id="desenvolvimento">
+        <div class="section-head fade-up">
+          <div>
+            <span class="section-eyebrow"><i class="fa-solid fa-graduation-cap"></i> Desenvolvimento</span>
+            <h1 class="section-title">Endomarketing, T&amp;D e Projetos Estratégicos</h1>
+            <p class="section-sub">Ações de clima, capacitação de líderes e principais iniciativas estruturantes de RH. <span class="page-ref" data-tooltip="Fonte: páginas 14, 15, 18 e 19 do PDF">pág. 14-15, 18-19</span></p>
+          </div>
+        </div>
+
+        <h2 class="subsection-title"><span class="num-pill">1</span> Ações de Clima do Trimestre 2T26 <span class="page-ref" data-tooltip="Fonte: página 14 do PDF">pág. 14</span></h2>
+        <div class="grid grid-2">
+          <div class="card">
+            <h4 style="font-size:14px;margin-bottom:8px;"><i class="fa-solid fa-heart" style="color:#e0507a;"></i> Dia das Mães</h4>
+            <p style="font-size:13px;color:var(--text-muted);">A ação proporcionou momentos de emoção e satisfação, reforçando o sentimento de valorização das colaboradoras por meio da homenagem realizada. Além de celebrar a data, trouxe reflexões sobre a saúde da mulher para além da maternidade e abordou os desafios vivenciados nesse período, agregando conscientização e cuidado à iniciativa.</p>
+            <img src="./assets/diasDasMaes.jpeg">
+          </div>
+          <div class="card">
+            <h4 style="font-size:14px;margin-bottom:8px;"><i class="fa-solid fa-fire" style="color:var(--attention);"></i> São João</h4>
+            <p style="font-size:13px;color:var(--text-muted);">A ação de clima teve uma receptividade muito positiva desde o convite, demonstrando o engajamento dos colaboradores. A iniciativa promoveu interação entre diferentes setores, fortaleceu o sentimento de inclusão e valorizou a data comemorativa, refletido na adesão às roupas temáticas e na participação das equipes. Além disso, a ação gerou expectativa para as próximas iniciativas, reforçando o impacto positivo das ações de clima na empresa.</p>
+            <img src="./assets/saoJoao.png">
+          </div>
+        </div>
+
+        <h2 class="subsection-title"><span class="num-pill">2</span> Programa de Desenvolvimento de Líderes <span class="page-ref" data-tooltip="Fonte: página 15 do PDF">pág. 15</span></h2>
+        <div class="grid grid-2">
+          <div class="card">
+            <h4 style="font-size:14px;margin-bottom:8px;">Módulo II — Comunicação e Feedback</h4>
+            <p style="font-size:13px;color:var(--text-muted);">O segundo módulo fortaleceu competências essenciais para a liderança, com foco em comunicação assertiva, comunicação não violenta e gestão de pessoas. Além de preparar os gestores para conduzir feedbacks mais estruturados e efetivos, o treinamento representou um passo importante para a implantação do ciclo de feedback da empresa, promovendo uma cultura de desenvolvimento contínuo e alinhamento entre líderes e equipes.</p>
+            <img src="./assets/modulo2.png">
+          </div>
+          <div class="card">
+            <h4 style="font-size:14px;margin-bottom:8px;">Módulo III — Gestão de Equipes, Conflitos e Conversas Difíceis</h4>
+            <p style="font-size:13px;color:var(--text-muted);">O terceiro módulo preparou os gestores para lidar com situações desafiadoras da rotina de liderança, desenvolvendo habilidades para conduzir conversas difíceis, gerenciar conflitos e manter uma comunicação clara e respeitosa. O conteúdo também reforçou a importância do autoconhecimento como ferramenta para tomadas de decisão mais equilibradas e para uma gestão de equipes mais madura e eficaz.</p>
+            <img src="./assets/modulo3.jpeg">
+          </div>
+        </div>
+
+        <h2 class="subsection-title"><span class="num-pill">3</span> Projetos Estratégicos — Em Andamento <span class="page-ref" data-tooltip="Fonte: página 18 do PDF">pág. 18</span></h2>
+        <div class="grid grid-4" id="projetos-andamento-cards"></div>
+
+        <h2 class="subsection-title"><span class="num-pill">4</span> Projetos Estratégicos — Encaminhados <span class="page-ref" data-tooltip="Fonte: página 19 do PDF">pág. 19</span></h2>
+        <div class="grid grid-4" id="projetos-encaminhados-cards"></div>
+      </section>
+
+      <!-- ===================== CUSTOS ===================== -->
+      <section class="section" id="custos">
+        <div class="section-head fade-up">
+          <div>
+            <span class="section-eyebrow"><i class="fa-solid fa-sack-dollar"></i> Custos</span>
+            <h1 class="section-title">Impacto Financeiro dos Desligamentos</h1>
+            <p class="section-sub">Comparação folha x demissões e análise de custo por estado. <span class="page-ref" data-tooltip="Fonte: páginas 10 e 11 do PDF">pág. 10-11</span></p>
+          </div>
+        </div>
+
+        <div class="grid grid-4">
+          <div class="card kpi-card">
+            <div class="kpi-top"><div class="kpi-icon critico"><i class="fa-solid fa-coins"></i></div></div>
+            <div class="kpi-value">R$1.04M</div>
+            <div class="kpi-label">Valor Total Gasto (Trimestre)</div>
+          </div>
+          <div class="card kpi-card">
+            <div class="kpi-top"><div class="kpi-icon atencao"><i class="fa-solid fa-calculator"></i></div></div>
+            <div class="kpi-value">R$ 4.639,87</div>
+            <div class="kpi-label">Custo Médio por Desligamento</div>
+          </div>
+          <div class="card kpi-card">
+            <div class="kpi-top"><div class="kpi-icon neutro"><i class="fa-solid fa-user-slash"></i></div></div>
+            <div class="kpi-value">226</div>
+            <div class="kpi-label">Desligamentos Realizados</div>
+          </div>
+          <div class="card kpi-card">
+            <div class="kpi-top"><div class="kpi-icon atencao"><i class="fa-solid fa-percent"></i></div></div>
+            <div class="kpi-value">8,23%</div>
+            <div class="kpi-label">Impacto na Folha (Abril)</div>
+          </div>
+        </div>
+
+        <h2 class="subsection-title"><span class="num-pill">1</span> Comparação Detalhada: Folha x Demissões <span class="page-ref" data-tooltip="Fonte: página 10 do PDF">pág. 10</span></h2>
+        <div class="grid" style="grid-template-columns:1.3fr 1fr;">
+          <div class="card">
+            <div class="data-table-wrap"><table class="data-table" id="tbl-folha"></table></div>
+            <p class="section-sub" style="margin-top:10px;">Não há linha para o mês de Junho nesta tabela do PDF original (dado não constante).</p>
+          </div>
+          <div class="card chart-card">
+            <div class="chart-wrap" style="height:230px;"><canvas id="chart-folha"></canvas></div>
+          </div>
+        </div>
+
+        <div class="grid grid-3" style="margin-top:16px;">
+          <div class="card-flat"><strong style="font-size:12px;color:var(--dark);">ABRIL (MÊS MAIS CRÍTICO)</strong><p style="font-size:12.8px;margin-top:6px;color:var(--text-muted);">R$ 453.998,54 (89 demissões). Pico de cortes em PE e RJ.</p></div>
+          <div class="card-flat"><strong style="font-size:12px;color:var(--dark);">MAIO</strong><p style="font-size:12.8px;margin-top:6px;color:var(--text-muted);">R$ 215.399,08 (59 demissões). Queda abrupta artificial, mascarada pelo aumento de demissões em AL.</p></div>
+          <div class="card-flat"><strong style="font-size:12px;color:var(--dark);">JUNHO</strong><p style="font-size:12.8px;margin-top:6px;color:var(--text-muted);">R$ 379.212,96 (78 demissões). Retomada de alta geral.</p></div>
+        </div>
+
+        <h2 class="subsection-title"><span class="num-pill">2</span> Análise de Custo por Estado <span class="page-ref" data-tooltip="Fonte: página 11 do PDF">pág. 11</span></h2>
+        <div class="grid" style="grid-template-columns:1.3fr 1fr;">
+          <div class="card">
+            <div class="table-toolbar">
+              <h4 style="font-size:13.5px;">Ranking por Estado</h4>
+              <div class="search-box"><i class="fa-solid fa-magnifying-glass"></i><input type="text" placeholder="Buscar estado…" data-table-search="tbl-custo-estado"></div>
+            </div>
+            <div class="data-table-wrap"><table class="data-table" id="tbl-custo-estado"></table></div>
+          </div>
+          <div class="card chart-card">
+            <div class="chart-wrap" style="height:300px;"><canvas id="chart-participacao-estado"></canvas></div>
+          </div>
+        </div>
+
+        <h2 class="subsection-title" style="margin-top:36px;">Análise por Departamento (O Pareto do Custo)</h2>
+        <div class="grid grid-2">
+          <div class="card">
+            <h4 style="font-size:13px;color:var(--dark);margin-bottom:8px;">Alagoas (Risco Estrutural)</h4>
+            <p style="font-size:13px;color:var(--text-muted);">Possui o menor custo financeiro total, mas concentra quase metade de todo o volume de demissões (101). O baixíssimo custo médio indica que a operação contrata e demite em altíssima velocidade. É uma verdadeira "máquina de moer gente".</p>
+          </div>
+          <div class="card">
+            <h4 style="font-size:13px;color:var(--dark);margin-bottom:8px;">Rio de Janeiro</h4>
+            <p style="font-size:13px;color:var(--text-muted);">Frequência menor, mas o custo individual da demissão é extremamente alto. Focado em líderes de vendas, comissionamentos elevados ou profissionais com tempo de casa.</p>
+          </div>
+        </div>
+
+        
+        <h2 class="subsection-title"><span class="num-pill">4</span> Foco Regional: Rio de Janeiro (Veículos Novos) <span class="page-ref" data-tooltip="Fonte: página 12 do PDF">pág. 12</span></h2>
+        <div class="grid grid-3" style="margin-bottom:16px;">
+          <div class="card kpi-card">
+            <div class="kpi-value">23</div>
+            <div class="kpi-label">Total de Desligamentos (RJ – VN)</div>
+            <div class="kpi-foot"><span class="pill critico">ALTO VOLUME</span></div>
+          </div>
+          <div class="card kpi-card">
+            <div class="kpi-value">R$ 273.726,79</div>
+            <div class="kpi-label">Custo Rescisório Total</div>
+          </div>
+          <div class="card kpi-card">
+            <div class="kpi-value">56%</div>
+            <div class="kpi-label">Demissões Sem Justa Causa</div>
+            <div class="kpi-foot">Iniciadas pela empresa</div>
+          </div>
+        </div>
+        <div class="grid grid-4" id="regioes-rj-cards"></div>
+        <div class="grid grid-2" style="margin-top:16px;">
+          <div class="callout"><strong>1. Custo vs. Volume na Região 2:</strong> A Região 2 teve apenas 4 demissões, mas gerou R$ 91k em custos (média de R$ 22,8k/demissão — 60% maior que a média da Região 1). Isso indica desligamento de profissionais com muito tempo de casa ou salários maiores.</div>
+          <div class="callout"><strong>2. Gestão de Baixa Performance:</strong> Mais da metade das saídas (56%) foram Demissões Sem Justa Causa iniciadas pela empresa. Isso evidencia que o turnover no RJ-VN não é fuga de talentos, mas sim uma necessidade da empresa de expurgar colaboradores de baixa performance ou erros de contratação prévia.</div>
+        </div>
+
+        <h2 class="subsection-title"><span class="num-pill">3</span> Custos por Departamento</h2>
+        <div class="grid" style="grid-template-columns:1fr 1.3fr;">
+          <div class="card chart-card hoverable">
+            <div class="chart-card-head">
+              <h4>Análise por Departamento (O Pareto do Custo)</h4>
+              <button class="expand-btn" data-expand-chart="chart-custo-depto-pareto"><i class="fa-solid fa-expand"></i></button>
+            </div>
+            <div class="chart-wrap" style="height:300px;"><canvas id="chart-custo-depto-pareto"></canvas></div>
+          </div>
+          <div class="card">
+            <h4 style="font-size:13.5px;margin-bottom:12px;">Leitura do Pareto</h4>
+            <ul class="bullet-list">
+              <li><i class="fa-solid fa-circle"></i><strong>Veículos Novos (R$510K — 48,6%):</strong> maior concentração de custo entre todos os departamentos, quase metade do total analisado.</li>
+              <li><i class="fa-solid fa-circle"></i><strong>Consórcio (R$313K — 29,9%):</strong> segunda maior fatia, reforçando o padrão já observado no volume de desligamentos.</li>
+              <li><i class="fa-solid fa-circle"></i><strong>Web (R$101K — 9,6%) e Administrativo (R$53K — 5,1%):</strong> participação intermediária, dentro do esperado para o porte das equipes.</li>
+              <li><i class="fa-solid fa-circle"></i><strong>Peças e Outros:</strong> juntos representam menos de 7% do custo total, confirmando a estabilidade financeira dessas áreas.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== INSIGHTS ===================== -->
+      <section class="section" id="insights">
+        <div class="section-head fade-up">
+          <div>
+            <span class="section-eyebrow"><i class="fa-solid fa-lightbulb"></i> Insights</span>
+            <h1 class="section-title">Leitura Gerencial — O Que Esses Números Dizem Sobre a Empresa?</h1>
+            <p class="section-sub">Estamos contratando muito bem, mas perdendo pessoas de formas que podemos controlar. O RH acertou na seleção — o desafio agora é garantir que a liderança retenha e desenvolva esses talentos. <span class="page-ref" data-tooltip="Fonte: página 17 do PDF">pág. 17</span></p>
+          </div>
+        </div>
+        <div class="grid grid-4" id="insights-cards"></div>
+      </section>
+
+      <!-- ===================== RECOMENDAÇÕES ===================== -->
+      <section class="section" id="recomendacoes">
+        <div class="section-head fade-up">
+          <div>
+            <span class="section-eyebrow"><i class="fa-solid fa-list-check"></i> Recomendações</span>
+            <h1 class="section-title">Plano de Ação &amp; Soluções (Executive View)</h1>
+            <p class="section-sub">Iniciativas diretas focadas em redução de custos rescisórios, produtividade e retenção comercial. <span class="page-ref" data-tooltip="Fonte: página 16 do PDF">pág. 16</span></p>
+          </div>
+        </div>
+        <div class="grid grid-4" id="plano-acao-cols"></div>
+
+        <h2 class="subsection-title" style="margin-top:44px;">Próximos Passos — Plano de Ação 3T26 <span class="page-ref" data-tooltip="Fonte: página 20 do PDF">pág. 20</span></h2>
+        <p class="section-sub" style="margin-bottom:20px;">Frentes prioritárias de atuação para o 3º trimestre de 2026.</p>
+        <div class="card">
+          <div class="timeline" id="timeline-container"></div>
+        </div>
+        <div class="callout" style="margin-top:16px;"><strong>Meta prioritária do 3T26</strong> Implementar e acompanhar o Ciclo de Feedback em toda a empresa, fortalecendo a cultura de desenvolvimento contínuo e o alinhamento entre líderes e colaboradores. Paralelamente, realizar o acompanhamento dos resultados da Pesquisa de Clima Organizacional, elaborando e monitorando planos de ação contínuos que promovam melhorias no ambiente de trabalho, fortaleçam a experiência dos colaboradores e contribuam para o desenvolvimento da empresa e da marca empregadora.</div>
+      </section>
+
+      <!-- ===================== COMPARATIVO 2025/2026 ===================== -->
+      <section class="section" id="comparativo-25-26">
+        <div class="section-head fade-up">
+          <div>
+            <span class="section-eyebrow"><i class="fa-solid fa-scale-balanced"></i> Comparativo Anual</span>
+            <h1 class="section-title">Comparativo 2025 ~ 2026</h1>
+            <p class="section-sub">Visão consolidada dos principais indicadores de RH confrontando o 2º trimestre de 2025 com o 2º trimestre de 2026, por estado e no total consolidado. <span class="page-ref" data-tooltip="Gráficos comparativos gerados a partir da base 2025-2026">dados 2025-2026</span></p>
+          </div>
+        </div>
+
+        <div class="filter-bar">
+          <button class="filter-chip active" data-comp-filter="all">Todos</button>
+          <button class="filter-chip" data-comp-filter="pessoas">Pessoas &amp; Retenção</button>
+          <button class="filter-chip" data-comp-filter="movimentacao">Movimentação</button>
+          <button class="filter-chip" data-comp-filter="custos">Custos</button>
+        </div>
+
+        <div class="grid grid-2" id="comparativo-cards">
+          <div class="card chart-card hoverable comp-block" data-cat="pessoas" data-panel="comp-headcount">
+            <div class="chart-card-head">
+              <h4><i class="fa-solid fa-users" style="color:var(--neutral-accent);margin-right:6px;"></i>Headcount Comparativo</h4>
+              <button class="expand-btn" data-expand-chart="chart-comp-headcount"><i class="fa-solid fa-expand"></i></button>
+            </div>
+            <div class="chart-wrap" style="height:300px;"><canvas id="chart-comp-headcount"></canvas></div>
+            <p class="section-sub" style="margin-top:12px;">Crescimento do quadro total de <strong style="color:var(--dark)">1.223</strong> (2025) para <strong style="color:var(--dark)">1.374</strong> (2026) colaboradores, com aumento em todas as unidades — destaque para Alagoas (+61) e Pernambuco (+68).</p>
+          </div>
+
+          <div class="card chart-card hoverable comp-block" data-cat="pessoas" data-panel="comp-aprovacao">
+            <div class="chart-card-head">
+              <h4><i class="fa-solid fa-user-check" style="color:var(--positive);margin-right:6px;"></i>Taxa de Aprovação na Experiência</h4>
+              <button class="expand-btn" data-expand-chart="chart-comp-aprovacao"><i class="fa-solid fa-expand"></i></button>
+            </div>
+            <div class="chart-wrap" style="height:300px;"><canvas id="chart-comp-aprovacao"></canvas></div>
+            <p class="section-sub" style="margin-top:12px;">Aprovados em 45 dias caíram de <strong style="color:var(--dark)">211</strong> para <strong style="color:var(--dark)">192</strong> no total consolidado; já os aprovados em 90 dias subiram de <strong style="color:var(--dark)">136</strong> para <strong style="color:var(--dark)">148</strong>, puxados por Alagoas.</p>
+          </div>
+
+          <div class="card chart-card hoverable comp-block" data-cat="pessoas" data-panel="comp-absenteismo">
+            <div class="chart-card-head">
+              <h4><i class="fa-solid fa-user-clock" style="color:var(--critical);margin-right:6px;"></i>Absenteísmo</h4>
+              <button class="expand-btn" data-expand-chart="chart-comp-absenteismo"><i class="fa-solid fa-expand"></i></button>
+            </div>
+            <div class="chart-wrap" style="height:300px;"><canvas id="chart-comp-absenteismo"></canvas></div>
+            <p class="section-sub" style="margin-top:12px;">Alta generalizada: total consolidado passou de <strong style="color:var(--dark)">11,75%</strong> para <strong style="color:var(--dark)">13,25%</strong> (+1,50 p.p.). O Rio de Janeiro é o ponto mais crítico, saltando de 16,68% para 18,81%.</p>
+          </div>
+
+          <div class="card chart-card hoverable comp-block" data-cat="movimentacao" data-panel="comp-turnover">
+            <div class="chart-card-head">
+              <h4><i class="fa-solid fa-arrows-rotate" style="color:var(--positive);margin-right:6px;"></i>Turnover</h4>
+              <button class="expand-btn" data-expand-chart="chart-comp-turnover"><i class="fa-solid fa-expand"></i></button>
+            </div>
+            <div class="chart-wrap" style="height:300px;"><canvas id="chart-comp-turnover"></canvas></div>
+            <p class="section-sub" style="margin-top:12px;">Melhora consolidada: turnover total recuou de <strong style="color:var(--dark)">17,58%</strong> para <strong style="color:var(--dark)">16,10%</strong> (-1,48 p.p.), com destaque para Alagoas (-2,90 p.p.). Rio de Janeiro permanece estável.</p>
+          </div>
+
+          <div class="card chart-card hoverable comp-block" data-cat="movimentacao" data-panel="comp-tempocasa">
+            <div class="chart-card-head">
+              <h4><i class="fa-solid fa-hourglass-half" style="color:var(--neutral-accent);margin-right:6px;"></i>Tempo de Casa / Tenure</h4>
+              <button class="expand-btn" data-expand-chart="chart-comp-tempocasa"><i class="fa-solid fa-expand"></i></button>
+            </div>
+            <div class="chart-wrap" style="height:300px;"><canvas id="chart-comp-tempocasa"></canvas></div>
+            <p class="section-sub" style="margin-top:12px;">Tempo médio de casa consolidado subiu de <strong style="color:var(--dark)">28,0</strong> para <strong style="color:var(--dark)">33,1</strong> meses, reflexo direto da queda no turnover — colaboradores permanecendo mais tempo na empresa.</p>
+          </div>
+
+          <div class="card chart-card hoverable comp-block" data-cat="custos" data-panel="comp-custos">
+            <div class="chart-card-head">
+              <h4><i class="fa-solid fa-sack-dollar" style="color:var(--attention);margin-right:6px;"></i>Custos de Desligamentos</h4>
+              <button class="expand-btn" data-expand-chart="chart-comp-custos"><i class="fa-solid fa-expand"></i></button>
+            </div>
+            <div class="chart-wrap" style="height:300px;"><canvas id="chart-comp-custos"></canvas></div>
+            <p class="section-sub" style="margin-top:12px;">Custo total consolidado avançou de <strong style="color:var(--dark)">R$ 913k</strong> para <strong style="color:var(--dark)">R$ 1.049k</strong> (+14,9%), pressionado pelo Rio de Janeiro (+40,6%), mesmo com queda de 11,1% em Pernambuco.</p>
+          </div>
+        </div>
+
+        <div class="callout" style="margin-top:20px;"><strong>Leitura consolidada 2025 → 2026</strong> O headcount cresceu e o turnover caiu, indicando maior retenção — porém o absenteísmo e o custo de desligamentos subiram, sinalizando que a permanência não veio acompanhada de melhora proporcional no engajamento diário nem no controle de custos rescisórios, especialmente no Rio de Janeiro.</div>
+      </section>
+
+      <!-- ===================== ANEXOS ===================== -->
+      <section class="section" id="anexos">
+        <div class="section-head fade-up">
+          <div>
+            <span class="section-eyebrow"><i class="fa-solid fa-paperclip"></i> Anexos</span>
+            <h1 class="section-title">Tabelas de Referência Completas</h1>
+            <p class="section-sub">Consolidação de todas as tabelas numéricas do relatório original, pesquisáveis e ordenáveis, para consulta rápida.</p>
+          </div>
+          <a class="btn btn-primary" href="source/RH_Resultados_2T26.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> Ver PDF original</a>
+        </div>
+
+        <div class="filter-bar">
+          <button class="filter-chip active" data-anexo-filter="all">Todas</button>
+          <button class="filter-chip" data-anexo-filter="turnover">Turnover</button>
+          <button class="filter-chip" data-anexo-filter="custos">Custos</button>
+          <button class="filter-chip" data-anexo-filter="regional">Regional</button>
+        </div>
+
+        <div class="grid grid-2" id="anexos-container"></div>
+      </section>
+
+    </main>
+
+    <footer id="footer">
+      Dashboard gerado a partir de <strong>RH - RESULTADOS DE RH 2º TRIMESTRE 26.pdf</strong> (20 páginas) · Todos os dados, números e textos foram preservados integralmente da fonte original · Pernambuco Motos © 2026
+    </footer>
+  </div>
+</div>
+
+<!-- SIDE PANEL -->
+<div id="side-panel-overlay"></div>
+<aside id="side-panel">
+  <div class="side-panel-head">
+    <div>
+      <h3 id="side-panel-title">Detalhe</h3>
+      <p id="side-panel-sub">Fonte no PDF</p>
+    </div>
+    <button class="side-panel-close" id="side-panel-close"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+  <div class="side-panel-body" id="side-panel-body"></div>
+</aside>
+
+<!-- MODAL (chart expand) -->
+<div id="modal-overlay">
+  <div id="modal-box">
+    <div class="modal-head">
+      <h3 id="modal-title">Gráfico ampliado</h3>
+      <button class="side-panel-close" id="modal-close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="modal-body">
+      <div style="height:60vh;"><canvas id="modal-canvas"></canvas></div>
+    </div>
+  </div>
+</div>
+
+<!-- IMAGE MODAL (comparativo 2025/2026 lightbox) -->
+<div id="img-modal-overlay">
+  <div id="img-modal-box">
+    <div class="modal-head">
+      <h3 id="img-modal-title">Gráfico ampliado</h3>
+      <button class="side-panel-close" id="img-modal-close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="modal-body" style="padding:16px;">
+      <img id="img-modal-img" src="" alt="" style="width:100%;height:auto;border-radius:10px;display:block;">
+    </div>
+  </div>
+</div>
+
+<button id="back-to-top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2pdf.js@0.10.1/dist/html2pdf.bundle.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
